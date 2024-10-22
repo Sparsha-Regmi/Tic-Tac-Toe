@@ -3,8 +3,14 @@
     margin: 0;
 }
 
+body{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
 .container{
+    color: white;
     /* background-color:green; */
+    margin-top: 10%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -14,8 +20,11 @@
 }
 
 .box{
-    border: 3px solid wheat;
-    /* border-left:3px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid rgb(116, 143, 121);
+    /* text-align: center; */
     height: 100px;
     width: 100px;
     margin-bottom: 1rem;
@@ -28,4 +37,9 @@
     flex-direction: row;
     flex-wrap: wrap;
     gap:0.5rem;
+}
+h3{
+width: 100%;
+display: inline;
+font-size: larger;
 }
